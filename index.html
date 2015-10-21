@@ -1,65 +1,90 @@
 <!doctype html>
 <html lang="en">
 
-	<head>
-		<meta charset="utf-8">
+  <head>
+    <meta charset="utf-8">
 
-		<title>reveal.js - The HTML Presentation Framework</title>
+    <title>reveal.js - The HTML Presentation Framework</title>
 
-		<meta name="description" content="A framework for easily creating beautiful presentations using HTML">
-		<meta name="author" content="Hakim El Hattab">
+    <meta name="description" content="A framework for easily creating beautiful presentations using HTML">
+    <meta name="author" content="Hakim El Hattab">
 
-		<meta name="apple-mobile-web-app-capable" content="yes" />
-		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
 
-		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
 
-		<link rel="stylesheet" href="css/reveal.css">
-		<link rel="stylesheet" href="css/theme/black.css" id="theme">
+    <link rel="stylesheet" href="css/reveal.css">
+    <link rel="stylesheet" href="css/theme/black.css" id="theme">
 
-		<!-- Code syntax highlighting -->
-		<link rel="stylesheet" href="lib/css/zenburn.css">
+    <!-- Code syntax highlighting -->
+    <link rel="stylesheet" href="lib/css/zenburn.css">
 
-		<!-- Printing and PDF exports -->
-		<script>
-			var link = document.createElement( 'link' );
-			link.rel = 'stylesheet';
-			link.type = 'text/css';
-			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
-			document.getElementsByTagName( 'head' )[0].appendChild( link );
-		</script>
+    <!-- Printing and PDF exports -->
+    <script>
+      var link = document.createElement( 'link' );
+      link.rel = 'stylesheet';
+      link.type = 'text/css';
+      link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+      document.getElementsByTagName( 'head' )[0].appendChild( link );
+    </script>
 
-		<!--[if lt IE 9]>
-		<script src="lib/js/html5shiv.js"></script>
-		<![endif]-->
-	</head>
+    <!--[if lt IE 9]>
+    <script src="lib/js/html5shiv.js"></script>
+    <![endif]-->
+  </head>
 
-	<body>
+  <body>
 
-		<div class="reveal">
+    <div class="reveal">
 
-			<!-- Any section element inside of this container is displayed as a slide -->
-			<div class="slides">
-				<section>
-					<h1>Meet The Tech Team!</h1>
-				</section>
+      <!-- Any section element inside of this container is displayed as a slide -->
+      <div class="slides">
+        <section>
+          <h1>Meet The Tech Team!</h1>
+        </section>
 
-				<section>
-					<h3>Why Do They Always Say 'Tech Debt'?</h3>
-					<a href="https://twitter.com/php_ceo/status/639203984780214272"><img src="img/tech-debt.png"></a>
-				</section>
-				<section>
-					<h3>It's A System Thing</h3>
-					<img src="http://www.shaunabram.com/wp-content/uploads/2013/04/DesignStaminaHypothesis.jpg">
-				</section>
-				<section>
-					<h3>Maybe This is a Better Metaphor</h3>
-					<img src="http://www.frankwbaker.com/citize9.gif">
-				</section>
-				<section>
-					<h3>Or This</h3>
-					<img src="https://deborahj.files.wordpress.com/2012/11/mcescher.jpg">
-				</section>
+        <section>
+          <h3>Why Do They Always Say 'Tech Debt'?</h3>
+          <a href="https://twitter.com/php_ceo/status/639203984780214272"><img src="img/tech-debt.png"></a>
+        </section>
+        <section>
+          <h3>It's A System Thing</h3>
+          <img src="http://www.shaunabram.com/wp-content/uploads/2013/04/DesignStaminaHypothesis.jpg">
+        </section>
+        <section>
+          <h3>Maybe This is a Better Metaphor</h3>
+          <img src="http://www.frankwbaker.com/citize9.gif">
+        </section>
+        <section>
+          <h3>Or This</h3>
+          <img src="https://deborahj.files.wordpress.com/2012/11/mcescher.jpg">
+        </section>
+
+        <!-- Daniel's section -->
+
+        <section>
+          <h3>Minimum Viable Product</h3>
+          <img src="img/MVP.jpg">
+        </section>
+
+        <section>
+          <h3>The Agile Manifesto</h3>
+          <ul>
+            <li><em>Individuals and interactions</em> over processes and tools</li>
+            <li><em>Working software</em> over comprehensive documentation</li>
+            <li><em>Customer collaboration</em> over contract negotiation</li>
+            <li><em>Responding to change</em> over following a plan</li>
+          </ul>
+        </section>
+        <section>
+          <h3>Principles of Agile Development</h3>
+          <img src="img/agile principles.png">
+        </section>
+
+        <section>
+          <img src="img/feedback.jpg">
+        </section>
 
         <!-- Kathryn's section -->
         <section>
@@ -98,37 +123,51 @@
           <p>(2) Number of times the browser has to ask the server for files (each takes time)</p>
           <p>(3) Time it takes for people to start seeing a page</p>
         </section>
-			</div>
+        <!-- Answering questions from Google Doc -->
 
-		</div>
+        <section>
+          <h3>This is a hexagon.</h3>
+          <img src="img/Hexagon.svg">
+          <h3>It has six sides.</h3>
+        </section>
 
-		<script src="lib/js/head.min.js"></script>
-		<script src="js/reveal.js"></script>
+        <section>
+          <h3>This is not a hexagon.</h3>
+          <img src="img/Octagon.svg">
+        </section>
 
-		<script>
 
-			// Full list of configuration options available at:
-			// https://github.com/hakimel/reveal.js#configuration
-			Reveal.initialize({
-				controls: true,
-				progress: true,
-				history: true,
-				center: true,
+      </div>
 
-				transition: 'slide', // none/fade/slide/convex/concave/zoom
+    </div>
 
-				// Optional reveal.js plugins
-				dependencies: [
-					{ src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
-					{ src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
-					{ src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
-					{ src: 'plugin/highlight/highlight.js', async: true, condition: function() { return !!document.querySelector( 'pre code' ); }, callback: function() { hljs.initHighlightingOnLoad(); } },
-					{ src: 'plugin/zoom-js/zoom.js', async: true },
-					{ src: 'plugin/notes/notes.js', async: true }
-				]
-			});
+    <script src="lib/js/head.min.js"></script>
+    <script src="js/reveal.js"></script>
 
-		</script>
+    <script>
 
-	</body>
+      // Full list of configuration options available at:
+      // https://github.com/hakimel/reveal.js#configuration
+      Reveal.initialize({
+        controls: true,
+        progress: true,
+        history: true,
+        center: true,
+
+        transition: 'slide', // none/fade/slide/convex/concave/zoom
+
+        // Optional reveal.js plugins
+        dependencies: [
+          { src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+          { src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+          { src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+          { src: 'plugin/highlight/highlight.js', async: true, condition: function() { return !!document.querySelector( 'pre code' ); }, callback: function() { hljs.initHighlightingOnLoad(); } },
+          { src: 'plugin/zoom-js/zoom.js', async: true },
+          { src: 'plugin/notes/notes.js', async: true }
+        ]
+      });
+
+    </script>
+
+  </body>
 </html>
